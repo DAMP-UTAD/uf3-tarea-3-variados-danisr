@@ -32,9 +32,9 @@ public class Ejercicio24 {
 			System.out.println("La superficie del triángulo es: " + superficie);
 			if (superficie > 12) {
 				masDoce = masDoce + 1;
-				System.out.println("Triángulos con superficie mayor a 12 son: "
-						+ masDoce);
 			}
 		}
+		System.out.println("Triángulos con superficie mayor a 12 son: "
+				+ masDoce);
 	}
 }

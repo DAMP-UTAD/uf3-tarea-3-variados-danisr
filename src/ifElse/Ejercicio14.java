@@ -20,18 +20,18 @@ public class Ejercicio14 {
 		int mensaje;
 
 		System.out.print("El rango de los números introducidos es: ");
-		
+
 		if (num1 < num2 && num1 < num3) {
 			mensaje = num1;
 		} else if (num2 < num3) {
 			mensaje = num2;
 		} else {
 			mensaje = num3;
-		}		
-		
+		}
+
 		System.out.print(mensaje);
-		System.out.print("-");		
-		
+		System.out.print("-");
+
 		if (num1 > num2 && num1 > num3) {
 			mensaje = num1;
 		} else if (num2 > num3) {
@@ -42,17 +42,3 @@ public class Ejercicio14 {
 		System.out.print(mensaje);
 	}
 }
-
-// if ((num1 > num2 && num1 > num3) || (num1 < num2 && num1 < num3)) {
-// mensaje = "El número mayor es el: " + num1;
-// mensaje = "El número menor es el: " + num1;
-// } else if ((num2 > num1 && num2 > num3) || (num2 < num1 && num2 < num3)) {
-// mensaje = "El número mayor es el: " + num2;
-// mensaje = "El número menor es el: " + num2;
-// } else {
-// mensaje = "El número mayor es el: " + num3;
-// mensaje = "El número menor es el: " + num3;
-// }
-// System.out.println(mensaje);
-// }
-// }

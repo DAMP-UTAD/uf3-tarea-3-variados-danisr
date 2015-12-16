@@ -7,12 +7,11 @@ public class Ejercicio19 {
 	public static void main(String[] args) {
 
 		int x = 8;
-		
-		System.out.println("Inicio");
+
 		while (x <= 500) {
-			System.out.println(x);
+			System.out.print(x);
 			x = x + 8;
+			System.out.print(" - ");
 		}
-		System.out.println("Fin");
 	}
 }
